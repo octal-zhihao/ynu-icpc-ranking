@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-image: url('https://picbed.octalzhihao.top/img/202409230001311.webp');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.overlay {
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    padding: 15px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+    font-size: 2rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li:first-child {
+    border-top: 1px solid #ddd;
+}
+
+/* 奖牌样式 */
+.rank-1::before {
+    content: "🥇";
+    margin-right: 10px;
+}
+
+.rank-2::before {
+    content: "🥈";
+    margin-right: 10px;
+}
+
+.rank-3::before {
+    content: "🥉";
+    margin-right: 10px;
+}
+
+/* 各个等级的用户名和积分字体颜色 */
+.gray { color: #808080; }
+.brown { color: #8B4513; }
+.green { color: #228B22; }
+.cyan { color: #00c0c0; }
+.blue { color: #0000FF; }
+.yellow { color: #FFFF00; }
+.orange { color: #FFA500; }
+.red { color: #FF0000; }
+
+/* 新增最高评分的样式 */
+.max-rating {
+    font-size: 1rem;  /* 设置字体稍小 */
+    font-weight: normal; /* 不加粗 */
+}
+
+/* 添加链接的基本样式 */
+a {
+    text-decoration: none; /* 去掉下划线 */
+    transition: color 0.3s ease; /* 添加平滑过渡效果 */
+}
+
+/* 鼠标悬停时的样式 */
+a:hover {
+    color: #ff009d; /* 设置悬停时的颜色，您可以根据需要调整 */
+}

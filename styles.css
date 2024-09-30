@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('https://picbed.octalzhihao.top/img/202409230001311.webp');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.container {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* 设置按钮间距 */
+}
+
+.button {
+    background-color: #007BFF; /* 按钮背景颜色 */
+    color: white; /* 按钮文字颜色 */
+    padding: 15px 25px;
+    text-decoration: none; /* 去掉下划线 */
+    border-radius: 5px; /* 圆角按钮 */
+    font-size: 1.5rem;
+    transition: background-color 0.3s ease; /* 添加平滑过渡效果 */
+}
+
+.button:hover {
+    background-color: #0056b3; /* 悬停时按钮颜色 */
+}
