@@ -88,13 +88,13 @@ li:first-child {
 .red { color: #FF0000; }
 
 /* Nowcoder 积分颜色 */
-.gray { color: #808080; }
-.purple { color: #800080; }
-.blue { color: #0000FF; }
-.lightgreen { color: #25bb9b; }
-.yellow { color: #FFFF00; }
-.orange { color: #FFA500; }
-.red { color: #FF0000; }
+.nc-gray { color: #b4b4b4; }
+.nc-purple { color: #c177e7; }
+.nc-blue { color: #5ea1f4; }
+.nc-green { color: #25bb9b; }
+.nc-yellow { color: #e8ca2d; }
+.nc-orange { color: #fc7123; }
+.nc-red { color: #FF0000; }
 
 /* 新增最高评分的样式 */
 .max-rating {

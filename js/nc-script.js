@@ -10,13 +10,13 @@ async function fetchUsers() {
 }
 
 function getUserClassByRating(rating) {
-    if (rating < 700) return { class: 'gray' };
-    if (rating < 1100) return { class: 'purple' };
-    if (rating < 1500) return { class: 'blue' };
-    if (rating < 2000) return { class: 'lightgreen' };
-    if (rating < 2400) return { class: 'yellow' };
-    if (rating < 2800) return { class: 'orange' };
-    return { class: 'red' };
+    if (rating < 700) return { class: 'nc-gray' };
+    if (rating < 1100) return { class: 'nc-purple' };
+    if (rating < 1500) return { class: 'nc-blue' };
+    if (rating < 2000) return { class: 'nc-green' };
+    if (rating < 2400) return { class: 'nc-yellow' };
+    if (rating < 2800) return { class: 'nc-orange' };
+    return { class: 'nc-red' };
 }
 
 async function getUserRating(userid) {
