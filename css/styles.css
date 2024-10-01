@@ -58,7 +58,7 @@ li:first-child {
     margin-right: 10px;
 }
 
-/* 各个等级的用户名和积分字体颜色 */
+/* codeforces各个等级的用户名和积分字体颜色 */
 .newbie { color: #808080; }
 .pupil { color: #228B22; }
 .specialist { color: #03a89e; }
@@ -69,6 +69,16 @@ li:first-child {
 .grandmaster { color: #FF0000; }
 .international-grandmaster { color: #FF0000; }
 .legendary-grandmaster { color: #FF0000; }
+
+/* atcoder各个等级的用户名和积分字体颜色 */
+.gray { color: #808080; }
+.brown { color: #8B4513; }
+.green { color: #228B22; }
+.cyan { color: #00c0c0; }
+.blue { color: #0000FF; }
+.yellow { color: #FFFF00; }
+.orange { color: #FFA500; }
+.red { color: #FF0000; }
 
 /* 新增最高评分的样式 */
 .max-rating {
