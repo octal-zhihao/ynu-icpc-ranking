@@ -1,6 +1,6 @@
 async function fetchUsers() {
     try {
-        const response = await fetch('users.json'); // 假设users.json与HTML文件放在同一个目录下
+        const response = await fetch('/nowcoder/users.json');
         const data = await response.json();
         return data.users;  // 返回用户列表
     } catch (error) {
