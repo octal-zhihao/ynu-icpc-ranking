@@ -1,7 +1,7 @@
 body {
     font-family: Arial, sans-serif;
     padding: 20px;
-    background-image: url('https://picbed.octalzhihao.top/img/202409230001311.webp');
+    background-image: url('https://picbed.octalzhihao.top/img/202410011627796.webp');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -35,7 +35,14 @@ li {
     font-weight: bold;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: center;      /* 垂直方向居中 */
+    text-align: center;       /* 确保文本居中 */
+}
+
+/* 调整列表项文本的居中对齐 */
+li a {
+    text-align: center; /* 使链接内容居中 */
+    flex-grow: 1; /* 确保链接内容占据li的剩余空间 */
 }
 
 li:first-child {
@@ -80,6 +87,15 @@ li:first-child {
 .orange { color: #FFA500; }
 .red { color: #FF0000; }
 
+/* Nowcoder 积分颜色 */
+.gray { color: #808080; }
+.purple { color: #800080; }
+.blue { color: #0000FF; }
+.lightgreen { color: #25bb9b; }
+.yellow { color: #FFFF00; }
+.orange { color: #FFA500; }
+.red { color: #FF0000; }
+
 /* 新增最高评分的样式 */
 .max-rating {
     font-size: 1rem;  /* 设置字体稍小 */
@@ -95,4 +111,29 @@ a {
 /* 鼠标悬停时的样式 */
 a:hover {
     color: #ff009d; /* 设置悬停时的颜色，您可以根据需要调整 */
+}
+
+/* 返回主页按钮的样式 */
+.back-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 13px 20px;
+    background-color: #007BFF; /* 绿色背景 */
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+    text-align: center;
+    cursor: pointer;
+}
+
+/* 鼠标悬停时按钮的效果 */
+.back-button:hover {
+    background-color: #0056b3; /* 鼠标悬停时变得更深 */
+}
+
+/* 使按钮在页面中居中 */
+.overlay {
+    text-align: center;
 }
